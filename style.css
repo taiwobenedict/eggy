@@ -227,6 +227,27 @@ header {
     right: 20%;
 }
 
+.token-img {
+  max-width: 400px;
+}
+
+.circle {
+  width: 32px;
+  height: 32px;
+  box-shadow: 0px 6px 10px 0px #00000052 inset;
+  border-radius: 50%;
+
+}
+
+.circle-1{
+  background: #FE8F88;
+}
+.circle-2{
+  background: #FFC318;
+}
+.circle-3{
+  background: #FF8BB4;
+}
 /* FAQ */
 .card {
   box-shadow: 0px 6px 10px 0px #54545452 inset;
@@ -285,6 +306,10 @@ footer .nav-link {
     font-size: 0.75rem;
   }
 
+  .navbar-brand {
+    width: 70px;
+  }
+
   #hero {
     padding-top: 50px;
     height: auto;
@@ -296,7 +321,8 @@ footer .nav-link {
 
   .text-img,
   .hero-img,
-  .small-img {
+  .small-img,
+  .token-img {
     max-width: 400px;
     margin-inline: auto;
   }
