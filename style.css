@@ -1,6 +1,6 @@
 :root {
   --primary-color: #ff8eae;
-  --dark-color: #4a4a4a;
+  --dark-color: #000;
   --light-color: #fff;
 }
 
@@ -39,6 +39,7 @@ img {
 a,
 a:hover {
   color: var(--dark-color);
+  text-decoration: none;
 }
 
 .btn {
@@ -274,12 +275,16 @@ footer .nav-link {
 
 
 @media (max-width: 576px) {
-  #hero h1 {
-    font-size: 2.5rem;
+  #hero h5 {
+    text-align: center;
   }
 }
 
 @media (max-width: 768px) {
+  body {
+    font-size: 0.75rem;
+  }
+
   #hero {
     padding-top: 50px;
     height: auto;
@@ -288,6 +293,22 @@ footer .nav-link {
   .about-text {
     font-size: 2.5rem;
   }
+
+  .text-img,
+  .hero-img,
+  .small-img {
+    max-width: 400px;
+    margin-inline: auto;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+  }
+
 }
 
 @media (max-width: 992px) {
