@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 :root {
   --primary-color: #ff8eae;
   --dark-color: #000;
@@ -293,6 +295,10 @@ footer .nav-link {
   cursor: pointer;
 }
 
+.address {
+  font-family: "Open Sans", sans-serif;
+}
+
 
 
 @media (max-width: 576px) {
@@ -366,14 +372,3 @@ footer .nav-link {
   }
 }
 
-@media (max-width: 576px) {
-  .address {
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 1200px) {
-  .address {
-    max-width: 100%;
-  }
-}
